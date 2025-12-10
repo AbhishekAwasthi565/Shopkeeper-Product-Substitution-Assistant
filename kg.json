@@ -1,0 +1,59 @@
+{
+  "products": {
+    "whole_milk": {
+      "name": "Whole Milk",
+      "category": "milk",
+      "brand": "DairyPure",
+      "price": 60,
+      "tags": ["lactose"],
+      "in_stock": false
+    },
+    "skim_milk": {
+      "name": "Skim Milk",
+      "category": "milk",
+      "brand": "Amul",
+      "price": 55,
+      "tags": ["low_fat"],
+      "in_stock": true
+    },
+    "almond_milk": {
+      "name": "Almond Milk",
+      "category": "plant_milk",
+      "brand": "AlmondBreeze",
+      "price": 80,
+      "tags": ["lactose_free", "vegan"],
+      "in_stock": true
+    },
+    "soy_milk": {
+      "name": "Soy Milk",
+      "category": "plant_milk",
+      "brand": "SoyFresh",
+      "price": 75,
+      "tags": ["lactose_free", "vegan"],
+      "in_stock": true
+    },
+    "brown_bread": {
+      "name": "Brown Bread",
+      "category": "bread",
+      "brand": "Harvest",
+      "price": 40,
+      "tags": ["veg"],
+      "in_stock": true
+    },
+    "white_bread": {
+      "name": "White Bread",
+      "category": "bread",
+      "brand": "Britannia",
+      "price": 35,
+      "tags": ["veg"],
+      "in_stock": false
+    }
+  },
+
+  "categories": {
+    "milk": ["plant_milk"],
+    "plant_milk": [],
+    "bread": []
+  }
+}
+
